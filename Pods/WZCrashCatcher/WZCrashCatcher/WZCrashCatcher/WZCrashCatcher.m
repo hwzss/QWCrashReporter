@@ -6,14 +6,14 @@
 //  Copyright © 2017年 qwkj. All rights reserved.
 //
 
-#import "WZCarshCatcher.h"
+#import "WZCrashCatcher.h"
 
 //你的项目中自定义文件夹名
 static NSString *const WZCrashFileDirectory = @"WZCrashCatcherFileDirectory";
 
-@implementation WZCarshCatcher
+@implementation WZCrashCatcher
 
-+ (void)WZ_initCarshCatcher
++ (void)WZ_initCrashCatcher
 {
     //carsh 回调注册
     NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
@@ -26,7 +26,6 @@ static inline NSString *WZ_getCachesPath()
 
 static void UncaughtExceptionHandler(NSException *exception)
 {
-
     if (exception == nil)
         return;
     NSArray *array = [exception callStackSymbols];
@@ -35,7 +34,7 @@ static void UncaughtExceptionHandler(NSException *exception)
     NSDictionary *dict = @{ @"appException": @{@"exceptioncallStachSymbols": array, @"exceptionreason": reason, @"exceptionname": name} };
     if (dict)
     {
-        [WZCarshCatcher writeCrashFileOnDocumentsException:dict];
+        [WZCrashCatcher writeCrashFileOnDocumentsException:dict];
     }
 }
 

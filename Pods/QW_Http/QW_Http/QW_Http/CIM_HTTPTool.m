@@ -12,15 +12,15 @@
 #import "QW_ApiResponseParser.h"
 #define HTTPTimeout 20.0
 
-@implementation QW_ImageData
+@implementation QW_fileData
 
-+(instancetype )imageData:(NSData *)data Name:(NSString *)name fileName:(NSString *)fileName mimeType:(NSString *)mimeType{
-    QW_ImageData *imageData = [[QW_ImageData alloc]init];
-    imageData.imageData = data;
-    imageData.fileName = fileName;
-    imageData.name = name;
-    imageData.mimiType = mimeType;
-    return  imageData;
++(instancetype )fileData:(NSData *)data Name:(NSString *)name fileName:(NSString *)fileName mimeType:(NSString *)mimeType{
+    QW_fileData *fileData = [[QW_fileData alloc]init];
+    fileData.fileData = data;
+    fileData.fileName = fileName;
+    fileData.name = name;
+    fileData.mimiType = mimeType;
+    return  fileData;
 }
 
 @end
@@ -51,28 +51,19 @@
 
 
 #pragma -mark 新版
-/**
- 带图片上传的请求
- 
- @param URLString 接口地址
- @param setParameters 参数
- @param images 图片数组
- @param success 成功
- @param failure 失败
- @param connectfailure 链接失败
- */
-+(void)CIM_UploadImagesFileV3:(NSString *)URLString
+
++(void)CIM_UploadFileV3:(NSString *)URLString
                    parameters: (void(^)(NSMutableDictionary *params))setParameters
-    constructingBodyWithBlock:(void(^)(NSMutableArray<QW_ImageData *> *imageModels))block
+    constructingBodyWithBlock:(void(^)(NSMutableArray<QW_fileData *> *fileModels))block
                       success:(void (^)(id jsonData))success
                       failure:(void (^)(NSString *errorStr))failure
                connectfailure:(void (^)(BOOL *isShowErrorAlert))connectfailure{
     
-    NSMutableArray *imageDatas = [NSMutableArray new];
-    !block?:block(imageDatas);
+    NSMutableArray *fileDatas = [NSMutableArray new];
+    !block?:block(fileDatas);
     [self CIM_UploadImagesFile:URLString parameters:setParameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
-        [imageDatas enumerateObjectsUsingBlock:^(QW_ImageData *imageData, NSUInteger idx, BOOL * _Nonnull stop) {
-            [formData appendPartWithFileData:imageData.imageData name:imageData.name fileName:imageData.fileName mimeType:imageData.mimiType];
+        [fileDatas enumerateObjectsUsingBlock:^(QW_fileData *fileData, NSUInteger idx, BOOL * _Nonnull stop) {
+            [formData appendPartWithFileData:fileData.fileData name:fileData.name fileName:fileData.fileName mimeType:fileData.mimiType];
         }];
         
     } success:success failure:failure connectfailure:connectfailure];

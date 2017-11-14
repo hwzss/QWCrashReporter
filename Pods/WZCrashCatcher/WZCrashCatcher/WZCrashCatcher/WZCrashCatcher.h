@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WZCarshCatcher : NSObject
+@interface WZCrashCatcher : NSObject
 
-+ (void)WZ_initCarshCatcher;
++ (void)WZ_initCrashCatcher;
 
 + (nullable NSArray *)WZ_getCrashLogs;
 

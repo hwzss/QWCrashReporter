@@ -14,9 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - QW_Http (1.0.5):
+  - QW_Http (1.0.6):
     - AFNetworking
-  - WZCrashCatcher (1.0.1)
+  - WZCrashCatcher (1.0.2)
 
 DEPENDENCIES:
   - QW_Http
@@ -24,8 +24,8 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  QW_Http: 74a829133e36101b96671ba033afe28d27d0fe3f
-  WZCrashCatcher: 4b4fb67d23e422c4d8fb18ebb6bd12e619511c64
+  QW_Http: 82f71937381b7879467fe4cee37c5e12ce55d538
+  WZCrashCatcher: 710acdd17e43e2f69faac8a12582ac8e35cf1bb1
 
 PODFILE CHECKSUM: aafd36d02aa0ca59172e7de7ed5f9ebaf960f4e7
 

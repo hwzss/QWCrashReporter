@@ -10,7 +10,6 @@
 
 @interface QWCrashReporter : NSObject
 
-
 /**
  开启carsh捕捉报告功能
  */

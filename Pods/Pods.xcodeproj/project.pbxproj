@@ -157,9 +157,9 @@
 			<string>7C863C852ED777471FFC821A560F2C9F</string>
 			<key>buildPhases</key>
 			<array>
-				<string>C9AE4B1059A4494847A91AE940DB8DC2</string>
+				<string>90FE6C696981F173305B1D90A6D9DCBD</string>
 				<string>54B9B4917FAD77E8F310D6B217FFF27F</string>
-				<string>4C0EE82D86C3431A60F988DF5EC6E989</string>
+				<string>F29CA61815791F4107EAD5E344A24F79</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -234,6 +234,20 @@
 		<dict>
 			<key>fileRef</key>
 			<string>FBA323263956161DDE8C18B3C7EFCB77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0B037AF91BA2997D30DF5E4419CBCAA0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>31736CB522BE6E065BB47632440594DA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -333,19 +347,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>18906972A1FE83A2243824FFCDF78BBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WZCrashCatcher-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>18DB06EF236F5B5E8EC12F0FA7F4EB0A</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -378,7 +379,7 @@
 		<key>1A0C0C98AF49A45168402567CE5FFCEE</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>72B3CE40CD402DE64E8A07BEBD5155F3</string>
+			<string>6CE796CB6214D5020E652262FA0B6E6A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
@@ -668,6 +669,21 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>31736CB522BE6E065BB47632440594DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WZCrashCatcher.h</string>
+			<key>path</key>
+			<string>WZCrashCatcher/WZCrashCatcher/WZCrashCatcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3193CAF693F496CF6BBAA7E0BCD76004</key>
 		<dict>
 			<key>children</key>
@@ -941,40 +957,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4C0EE82D86C3431A60F988DF5EC6E989</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E688AFE7317973F813355C18EFC745A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CB31BAF8998C6C850075CA230C46DB4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69A162B580DFC69166C715980703D9BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E688AFE7317973F813355C18EFC745A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C12C762C8C51820CF9EAEB111823C6F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>4F07EE593B1843691B5579EE92C94209</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -1019,6 +1001,21 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>4F5095CFC24D85039BEA0FBF4E96BC90</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>WZCrashCatcher.m</string>
+			<key>path</key>
+			<string>WZCrashCatcher/WZCrashCatcher/WZCrashCatcher.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>508C962B3E08E8DA04956BF349A3CDFD</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1039,7 +1036,7 @@
 		<key>54650B2F413CDF061FEC1E574735C9D9</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>72B3CE40CD402DE64E8A07BEBD5155F3</string>
+			<string>6CE796CB6214D5020E652262FA0B6E6A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
@@ -1093,20 +1090,16 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>55041094E5B886F12CB0891722DB26AA</key>
+		<key>569B2B42174502C8AD0D2A2925F25CD8</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>C12C762C8C51820CF9EAEB111823C6F1</string>
-				<string>EABD124E29039631AC18D8B2BEC3982A</string>
-				<string>B49FA685FCA72854FDB4551A3105C97E</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WZCrashCatcher</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>WZCrashCatcher</string>
+			<string>WZCrashCatcher-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1183,6 +1176,23 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>6532FC755740698A0C72ACB457561D30</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>31736CB522BE6E065BB47632440594DA</string>
+				<string>4F5095CFC24D85039BEA0FBF4E96BC90</string>
+				<string>90A4BEDDD364A36DB71BEF30A3894113</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WZCrashCatcher</string>
+			<key>path</key>
+			<string>WZCrashCatcher</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>65AE27B2C62D5A405B578C5129631701</key>
 		<dict>
 			<key>containerPortal</key>
@@ -1246,19 +1256,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>69A162B580DFC69166C715980703D9BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WZCrashCatcher-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>6AB13CC58F40DF40C2B466B3355FE5CA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1271,6 +1268,19 @@
 			<string>UIButton+AFNetworking.m</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIButton+AFNetworking.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6CE796CB6214D5020E652262FA0B6E6A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>WZCrashCatcher.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1321,25 +1331,12 @@
 			<array>
 				<string>AA0A30440B79713852205EF990E4ECF0</string>
 				<string>096276137637765A7C2E05059F61D5D1</string>
-				<string>55041094E5B886F12CB0891722DB26AA</string>
+				<string>6532FC755740698A0C72ACB457561D30</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72B3CE40CD402DE64E8A07BEBD5155F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>WZCrashCatcher.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1616,6 +1613,13 @@
 				</array>
 			</dict>
 		</dict>
+		<key>8687B9C073D89629D555415EA74FB2E7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4F5095CFC24D85039BEA0FBF4E96BC90</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>870956136F2FB4765FB73BC4EE5415CC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1656,6 +1660,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8AEED430982B33089AE4CF47359FDAB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WZCrashCatcher-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1717,6 +1734,37 @@
 			<string>UIKit+AFNetworking/UIRefreshControl+AFNetworking.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>90A4BEDDD364A36DB71BEF30A3894113</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6CE796CB6214D5020E652262FA0B6E6A</string>
+				<string>8AEED430982B33089AE4CF47359FDAB2</string>
+				<string>569B2B42174502C8AD0D2A2925F25CD8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/WZCrashCatcher</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>90FE6C696981F173305B1D90A6D9DCBD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A2B02FB797FD61CC670F304AF6D0067C</string>
+				<string>8687B9C073D89629D555415EA74FB2E7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
@@ -1922,6 +1970,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A2B02FB797FD61CC670F304AF6D0067C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8AEED430982B33089AE4CF47359FDAB2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>A36E1FF2A5086B90174131FA0ECDA5AD</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2114,30 +2169,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>B2B20C1947D621F92DB830F69666F12A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EABD124E29039631AC18D8B2BEC3982A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B49FA685FCA72854FDB4551A3105C97E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>72B3CE40CD402DE64E8A07BEBD5155F3</string>
-				<string>69A162B580DFC69166C715980703D9BB</string>
-				<string>18906972A1FE83A2243824FFCDF78BBE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/WZCrashCatcher</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B51AA1F7701DCDBCC9B88A15320F9C2C</key>
 		<dict>
 			<key>fileRef</key>
@@ -2291,21 +2322,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C12C762C8C51820CF9EAEB111823C6F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WZCarshCatcher.h</string>
-			<key>path</key>
-			<string>WZCrashCatcher/WZCarshCatcher/WZCarshCatcher.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>C1B65C3D849FEE4FB5298A8135A765DA</key>
 		<dict>
 			<key>fileRef</key>
@@ -2337,20 +2353,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C9AE4B1059A4494847A91AE940DB8DC2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B2B20C1947D621F92DB830F69666F12A</string>
-				<string>4CB31BAF8998C6C850075CA230C46DB4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
@@ -2674,21 +2676,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EABD124E29039631AC18D8B2BEC3982A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>WZCarshCatcher.m</string>
-			<key>path</key>
-			<string>WZCrashCatcher/WZCarshCatcher/WZCarshCatcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>EAD9586439F7A350CDEDE475EA62524E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2746,6 +2733,19 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>F29CA61815791F4107EAD5E344A24F79</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0B037AF91BA2997D30DF5E4419CBCAA0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>F3774B1449FCE5B3CA3E1B336E11D284</key>
 		<dict>
