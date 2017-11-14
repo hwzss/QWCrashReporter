@@ -8,7 +8,7 @@
 
 #import "QWCrashReporter.h"
 #import <UIKit/UIKit.h>
-#import <WZCarshCatcher.h>
+#import <WZCrashCatcher/WZCarshCatcher.h>
 
 #import <QW_Http/CIM_HTTPTool.h>
 
