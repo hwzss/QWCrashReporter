@@ -24,8 +24,6 @@
     NSArray *arr = [self getlogs];
     if (arr && arr.count > 0)
     {
-        UIAlertView *alertV = [[UIAlertView alloc]initWithTitle:nil message:@"find a bug" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"ok" ,   nil];
-        [alertV show];
         [self reportCarshLogs:arr];
     }
 }
