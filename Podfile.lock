@@ -1,0 +1,32 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - QW_Http (1.0.5):
+    - AFNetworking
+  - WZCrashCatcher (1.0.1)
+
+DEPENDENCIES:
+  - QW_Http
+  - WZCrashCatcher
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  QW_Http: 74a829133e36101b96671ba033afe28d27d0fe3f
+  WZCrashCatcher: 4b4fb67d23e422c4d8fb18ebb6bd12e619511c64
+
+PODFILE CHECKSUM: aafd36d02aa0ca59172e7de7ed5f9ebaf960f4e7
+
+COCOAPODS: 1.1.0.beta.2
